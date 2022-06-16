@@ -1,0 +1,81 @@
+/* Welcome Div */
+.my-welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  /* height: 500px; */
+  margin: 70px auto;
+}
+
+.my-welcome-img {
+  padding: 50px;
+}
+
+/* Project Card */
+.my-card {
+  border: 1px solid #e7eaed;
+  border-radius: 10px;
+  width: 332px;
+  height: auto;
+}
+
+.my-project-thumbnail {
+  border-radius: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* border: 1px solid #e7eaed; */
+  width: 330px;
+  height: auto;
+}
+
+.my-card-footer {
+  background-color: rgb(236, 236, 236);
+}
+
+/* Project Page */
+.my-project-img {
+  border-radius: 0px;
+  border: 1px solid #e7eaed;
+  width: 600px;
+  height: auto;
+}
+
+/* Home Component */
+.my-home-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test {
+  border: 1px solid black;
+}
+
+/* Login Component */
+/* body{background: rgb(236, 236, 236)} */
+/* .card{border: none;height: 320px} */
+.forms-inputs {
+  position: relative;
+}
+.forms-inputs span {
+  position: absolute;
+  top: -18px;
+  left: 10px;
+  background-color: #fff;
+  padding: 5px 10px;
+  font-size: 15px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.forms-inputs input {
+  height: 50px;
+  border: 2px solid #eee;
+}
+/* .forms-inputs input:focus{box-shadow: none;outline: none;border: 2px solid #000} */
+/* .btn{height: 50px} */
+.my-btn {
+  height: 50px;
+}
+/* .success-data{display: flex;flex-direction: column} */
+/* .bxs-badge-check{font-size: 90px} */
